@@ -24,10 +24,11 @@ const initialState = {
 }
 
  const rootReducer = combineReducers({
+   // ...other reducers here
   otherReducer,
-  // ...your other reducers here
+ 
   // you have to pass formReducer under 'form' key,
-  // for custom keys look up the docs for 'getFormState'
+
   form: formReducer
 })
 

@@ -32,11 +32,7 @@ ContactForm = reduxForm({
   form: 'contactFormDetails'
 })(ContactForm)
 
-// function mapStateToProps(reduxState){
-//   return {
-//     form: reduxState.form
-//   }
-// }
+
 export default ContactForm
 
 
@@ -44,36 +40,5 @@ export default ContactForm
 
 
 
-// import React from 'react'
-// import {reduxForm, Field} from 'redux-form'; 
-// import {useState} from 'react';
-// import {connect} from 'react-redux';
-
-// function Data(props) {
-//     // const[firstname, setFirstname] = useState();
-//     // const[lastname, setLastname] = useState();
-
-//     // const handleClick = (e)=>{
-//     //     e.preventDefault();
-//     //     console.log(props)
-//     // }
-//     return (
 
 
-//             // <reduxForm>
-//             // <input type="text" placeholder="firstname"  value={firstname} onChange={e => setFirstname(e.target.value)} name="firstname"/>
-//             // <input type="text" placeholder="lastname"  value={lastname} onChange={e => setLastname(e.target.value)} name="lastname" />
-//             // <button type='submit' onClick={handleClick}>Submit</button>
-//             // </reduxForm>
-    
-//     )
-// }
-
-// function mapStateToProps(reduxState){
-//     return {
-//       data: reduxState.data
-//     }
-//   }
-
-  
-// export default connect(mapStateToProps)(Data)

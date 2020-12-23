@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Data from './Data';
 import OtherReducer from './testingOtherReducer'
 
-import {connect} from 'react-redux';
+
 
 
 
